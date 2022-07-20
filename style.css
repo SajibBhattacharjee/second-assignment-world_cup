@@ -1,0 +1,470 @@
+/* fonts--------------------------------------------------- */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+/* common style---------------------------------------------- */
+body {
+    font-family: 'Poppins', sans-serif;
+
+
+}
+
+/* banner style starts--------- */
+
+.top_banner {
+
+    background-color: #161616;
+    display: flex;
+    justify-content: space-evenly;
+
+    padding-top: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 20px;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+
+}
+
+.banner_description {
+    width: 50%;
+    padding-bottom: 100px;
+
+}
+
+.banner_heading {
+    color: white;
+    font-size: 70px;
+    font-weight: 700;
+}
+
+.banner_text {
+    color: white;
+    font-weight: 400;
+    font-size: 16px;
+    padding-bottom: 50px;
+    padding-top: 5px;
+
+}
+
+.banner_button {
+    background-color: #DD0000;
+    text-decoration: none;
+    padding: 16px 25px;
+    color: white;
+    border-radius: 5px;
+}
+
+.banner_description>a>i {
+    padding-left: 20px;
+}
+
+
+.banner_image {
+    width: 50%;
+}
+
+.banner_image img {
+
+    width: 100%;
+    height: 100%;
+
+}
+
+/* banner style ends */
+/* main starts---------- */
+.container {
+    display: flex;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+
+}
+
+/* sidebar start */
+.sidebar {
+    margin-top: 80px;
+    margin-right: 50px;
+    width: 250px;
+    height: 250px;
+    background-color: black;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+
+}
+
+.box1 {
+    border: 1px solid black;
+    background-color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 15px;
+    margin-bottom: 15px;
+}
+
+.box2 {
+    border: 1px solid black;
+    background-color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 65px;
+    padding-right: 65px;
+    border-radius: 15px;
+    margin-bottom: 15px;
+}
+
+.box3 {
+    border: 1px solid black;
+    background-color: #DD0000;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 80px;
+    padding-right: 80px;
+    border-radius: 15px;
+    margin-bottom: 15px;
+}
+
+.box1 a,
+.box2 a {
+    text-decoration: none;
+    color: black;
+}
+
+.box3 a {
+    text-decoration: none;
+    color: white;
+}
+
+/* sidebar ends */
+/* transfer starts */
+.transfer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 10px;
+    row-gap: 10px;
+}
+
+.transfer1 {
+    border: 2px solid gray;
+    border-radius: 20px;
+
+}
+
+.transfer_image {
+    margin: 0;
+}
+
+.transfer_image img {
+    width: 100%
+}
+
+.transfer_content {
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+
+.transfer_button button {
+    width: 100px;
+    height: 32px;
+}
+
+.hour {
+    padding-left: 20px;
+    font-size: small;
+    padding-right: 80px;
+}
+
+.number {
+    padding-left: 20px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.transfer_info {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.view {
+    text-align: center;
+    margin-bottom: 50px;
+    visibility: hidden;
+}
+
+.view a {
+    background-color: #DD0000;
+    text-decoration: none;
+    padding: 16px 25px;
+    color: white;
+    border-radius: 5px;
+
+}
+
+/* transfer ends */
+
+/* second page fixture starts */
+.container_2 {
+    display: flex;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+
+
+}
+
+.fixture {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 10px;
+    row-gap: 10px;
+
+    width: 100%;
+}
+
+.fixture_1 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border: 2px solid gray;
+    border-radius: 10px;
+
+}
+
+.team {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+
+}
+
+.team img {
+    width: 100%;
+}
+
+.vs {
+    padding-left: 5%;
+    padding-right: 5%;
+
+}
+
+.team_text {
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+.team_text>h3 {
+    text-align: center;
+}
+
+
+.date_time {
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+footer {
+    margin: 0;
+    text-align: center;
+    background-color: black;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+}
+
+hr {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
+
+}
+
+.footer_heading {
+    color: white;
+    padding-bottom: 30px;
+}
+
+.footer_heading h1 {
+    font-size: 40px;
+}
+
+.footer_heading>p {
+    font-size: 1.5em
+}
+
+
+
+.footer_heading>p>a>i {
+    padding-left: 10px;
+    padding-right: 10px;
+    color: white;
+    font-size: 30px
+}
+
+
+
+.footer_bottom {
+    display: flex;
+    justify-content: space-evenly;
+    color: #B9B9B9;
+    padding-top: 30px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+/* responsive starts--------------------- */
+/* responsive for tablet---------------- */
+@media only screen and (min-width:768px) and (max-width:1023px) {
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        margin-top: 2%;
+        margin-left: 50px;
+        margin-right: 50px;
+        margin-bottom: 40px;
+
+
+    }
+
+    .sidebar {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        background-color: white;
+        margin-top: 10px;
+
+
+    }
+
+    .box1 {
+        margin-right: 20px;
+    }
+
+
+    .box2 {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .box3 {
+        margin-left: 20px;
+        margin-right: 20px;
+
+    }
+
+    .transfer {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 10px;
+        row-gap: 10px;
+    }
+
+    .view {
+        text-align: center;
+        margin-bottom: 50px;
+        visibility: visible
+    }
+
+    .container_2 {
+        display: flex;
+        flex-direction: column;
+        margin-top: 2%;
+        margin-left: 50px;
+        margin-right: 50px;
+        margin-bottom: 40px;
+    }
+
+    .fixture {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 10px;
+        row-gap: 10px;
+    }
+
+    .team_text>h3 {
+
+
+        text-align: center;
+    }
+
+    .date_time>p {
+        text-align: center;
+    }
+
+
+
+}
+
+/* responsive for mobile-------------- */
+@media only screen and (max-width:767px) {
+    .top_banner {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .container,
+    .container_2 {
+        display: flex;
+        flex-direction: column;
+        margin-top: 2%;
+        margin-left: 50px;
+        margin-right: 50px;
+        margin-bottom: 40px;
+
+
+    }
+
+
+    .sidebar {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: white;
+        margin-top: 10px;
+
+
+    }
+
+    .transfer,
+    .fixture {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        column-gap: 10px;
+        row-gap: 10px;
+    }
+
+    .footer_bottom {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .team_text>h3 {
+
+
+        text-align: center;
+    }
+
+    .date_time>p {
+        text-align: center;
+    }
+}
